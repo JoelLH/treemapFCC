@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+
+text{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	fill: black;
+}
+tspan{
+    display: block;
+}
+rect:hover{
+    stroke: black;
+    stroke-width: 2px;
+}
+
+#tooltip{
+    font-size: 14px;
+    background: hsla(0, 0%, 100%, .7);
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(0, 14, 59);
+    font-weight: bold;
+    display: none;
+}
+.legend > text{
+    font-size: 14px;
+    font-weight: 600;
+}
